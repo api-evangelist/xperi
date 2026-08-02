@@ -1,0 +1,19 @@
+# Xperi
+
+> Xperi Inc. (NYSE: XPER) is an entertainment technology company whose licensed technologies power audio, video, and media discovery experiences across connected cars, consumer electronics, pay-TV, and streaming media platforms. Its brands include DTS immersive audio, HD Radio digital broadcast radio, IMAX Enhanced certification, and the TiVo video platform.
+
+Xperi is a technology licensing company: it ships its DTS, HD Radio, IMAX Enhanced, and TiVo technologies to automakers, device makers, and video service providers through commercial licensing and integration programs rather than a public developer API. As of 2026-07-21 no public developer portal, API documentation, OpenAPI specification, or /llms.txt was found on xperi.com or its brand properties (developer.tivo.com, developer.dts.com, and developer.xperi.com do not resolve). Its TiVo engineering organization maintains an open-source presence on GitHub.
+
+## Company
+
+- [Website](https://xperi.com): Corporate site covering the DTS, HD Radio, IMAX Enhanced, and TiVo solution lines and the connected car, consumer electronics, pay-TV, and media platform markets
+- [Blog](https://xperi.com/blogs/): Xpertise, culture, events, and company updates
+- [TiVo GitHub organization](https://github.com/TiVo): Open-source repositories from Xperi's TiVo engineering organization (74 public repos)
+- [Privacy Policy](https://xperi.com/privacy_policy/)
+- [Terms & Conditions](https://xperi.com/terms-conditions/)
+
+## Catalog artifacts
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/xperi/refs/heads/main/apis.yml): Machine-readable profile of Xperi in the API Evangelist network
+- [Domain security profile](https://raw.githubusercontent.com/api-evangelist/xperi/refs/heads/main/security/xperi-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture for xperi.com
+- [Well-known probe index](https://raw.githubusercontent.com/api-evangelist/xperi/refs/heads/main/well-known/xperi-well-known.yml): Recorded /.well-known/ discovery probes (no documents published)

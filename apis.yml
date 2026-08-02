@@ -1,21 +1,45 @@
 aid: xperi
 name: Xperi
-description: 'Xperi is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Xperi Inc. (NYSE: XPER) is an entertainment technology company whose
+  licensed technologies power audio, video, and media discovery experiences across
+  connected cars, consumer electronics, pay-TV, and streaming media platforms. Its
+  brands include DTS immersive audio, HD Radio digital broadcast radio, IMAX Enhanced
+  certification, and the TiVo video platform. Xperi ships its technologies to automakers,
+  device makers, and video providers through commercial licensing and integration
+  programs rather than a public developer API; no public developer portal or API
+  documentation was found, though its TiVo engineering organization maintains an
+  open-source presence on GitHub.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://xperi.com/wp-content/uploads/2022/05/xperi-logo-small.svg
 url: https://raw.githubusercontent.com/api-evangelist/xperi/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
-- Company
-- Unknown
+- Entertainment
+- Media
+- Audio
+- Connected Car
+- Consumer Electronics
+- Streaming
+- Television
+- Digital Radio
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,15 @@ maintainers:
 common:
 - type: Website
   url: https://xperi.com
+- type: Blog
+  url: https://xperi.com/blogs/
+- type: PrivacyPolicy
+  url: https://xperi.com/privacy_policy/
+- type: TermsOfService
+  url: https://xperi.com/terms-conditions/
+- type: GitHubOrganization
+  url: https://github.com/TiVo
+- type: DomainSecurity
+  url: security/xperi-domain-security.yml
+- type: LLMsTxt
+  url: llms/xperi-llms.txt

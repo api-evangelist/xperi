@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of xperi hosts
+note: >-
+  Probed the standard /.well-known/ discovery surface on xperi.com (the only
+  public host in apis.yml; developer.xperi.com, api.xperi.com, docs.xperi.com,
+  developer.tivo.com, and developer.dts.com do not resolve). xperi.com serves a
+  soft-404 (301 redirect to /not-found/ returning 200) for unknown paths, so
+  those probes are recorded with their effective status of 404. None returned
+  real content; recorded here as honest negative results. No WellKnown or
+  SecurityTxt pointer is emitted because nothing was found.
+hosts:
+- host: https://xperi.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404, note: soft-404 redirect to /not-found/}
+  - {path: /.well-known/oauth-authorization-server, status: 404, note: soft-404 redirect to /not-found/}
+  - {path: /.well-known/api-catalog, status: 404, note: soft-404 redirect to /not-found/}
+  - {path: /.well-known/ai-plugin.json, status: 404, note: soft-404 redirect to /not-found/}
+  - {path: /llms.txt, status: 404}
+- host: https://www.xperi.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
