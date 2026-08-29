@@ -9,6 +9,17 @@ description: 'Xperi Inc. (NYSE: XPER) is an entertainment technology company who
   programs rather than a public developer API; no public developer portal or API
   documentation was found, though its TiVo engineering organization maintains an
   open-source presence on GitHub.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
